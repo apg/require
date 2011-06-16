@@ -25,7 +25,7 @@ How to use (if you do need it)
     multiprocessing = require('multiprocessing')
     MySQLdb = require('MySQLdb')
     
-    # you can do "from" style too, but no wildcards!
+    \# you can do "from" style too, but no wildcards!
     os, sep = require('os', names=['pathsep'])
 
 Read the source to find out more tricks of the trade
