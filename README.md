@@ -1,4 +1,5 @@
-* You'll probably never need this
+You'll probably never need this
+===============================
 
 You might end up using 2 versions of Python, say 2.5 and 2.6. They 
 coexist fairly well, but you might have a compiled version of MySQLdb
@@ -8,7 +9,8 @@ but you're right--it's wrong.
 
 That's OK though, like I said, you'll probably never need this.
 
-** How to use (if you do need it)
+How to use (if you do need it)
+---------------------------------
 
 1. Copy `require.py` to your scripts directory
 2. Create a config file `require-paths.conf` which looks like this:
@@ -26,4 +28,4 @@ That's OK though, like I said, you'll probably never need this.
     # you can do "from" style too, but no wildcards!
     os, sep = require('os', names=['pathsep'])
 
-** Read the source to find out more tricks of the trade
+Read the source to find out more tricks of the trade
