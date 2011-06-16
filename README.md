@@ -12,15 +12,18 @@ That's OK though, like I said, you'll probably never need this.
 How to use (if you do need it)
 ---------------------------------
 
-1. Copy `require.py` to your scripts directory
-2. Create a config file `require-paths.conf` which looks like this:
+Copy `require.py` to your scripts directory
+Create a config file `require-paths.conf` which looks like this:
+
     [global]
     path = /:-separated/list/of/paths/to/put/on/sys.path
     
     [2.5]
     multiprocessing = /path/to/where/multiprocessing/is/
     other = /path/to/where/other/thing/is/
-3. Now you're ready to rock
+
+Now you're ready to rock
+
     from require import require
     multiprocessing = require('multiprocessing')
     MySQLdb = require('MySQLdb')
